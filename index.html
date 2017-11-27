@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Autonomous Cars</title>
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <meta name="author" content="Anthony AUPIAIS - Elhadj Mamadou DIALLO - Benjamin LE GALLO" />
+    <meta name="description" content="Website about autonomous cars with its technologies" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <style>
+        body {
+            font-family: "Lato", sans-serif
+        }
+
+        .mySlides {
+            display: none
+        }
+    </style>
+
+    <body>
+
+        <!-- Navbar -->
+        <div class="w3-top">
+            <div class="w3-bar w3-black w3-card-2">
+                <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+                <a href="#technology" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TECHNOLOGY</a>
+                <a href="#legislation" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LEGISLATION</a>
+                <a href="#today" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TODAY</a>
+                <a href="#tesla" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TESLA</a>
+                <a href="#future" class="w3-bar-item w3-button w3-padding-large w3-hide-small">THE FUTURE</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+            </div>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+            <a href="#technology" class="w3-bar-item w3-button w3-padding-large">TECHNOLOGY</a>
+            <a href="#legislation" class="w3-bar-item w3-button w3-padding-large">LEGISLATION</a>
+            <a href="#today" class="w3-bar-item w3-button w3-padding-large">TODAY</a>
+            <a href="#tesla" class="w3-bar-item w3-button w3-padding-large">TESLA</a>
+            <a href="#future" class="w3-bar-item w3-button w3-padding-large">THE FUTURE</a>
+        </div>
+
+        <!-- Page content -->
+        <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+            <!-- Automatic Slideshow Images -->
+            <div class="mySlides w3-display-container w3-center">
+                <h2 class="presentation">Is a 100% driverless car possible ?</h2>
+                <img src="img/mercedes-presentation.jpg" max-width="1364" max-height="924" alt="Mercedes: F015">
+                <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                    <h3>Mercedes</h3>
+                    <p><b>Since 2015, the project of Mercedes: the F015.</b></p>
+                </div>
+            </div>
+            <div class="mySlides w3-display-container w3-center">
+                <h2 class="presentation">Is a 100% driverless car possible ?</h2>
+                <img src="img/tesla-presentation.jpg" max-width="1585" max-height="924" alt="Model S and X - 2017">
+                <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                    <h3>Tesla</h3>
+                    <p><b>Tesla with autonomous cars: Model S and X for 2017.</b></p>
+                </div>
+            </div>
+            <div class="mySlides w3-display-container w3-center">
+                <h2 class="presentation">Is a 100% driverless car possible ?</h2>
+                <img src="img/bmw-presentation.jpg" max-width=1255 max-height="816" alt="BMW: iNext">
+                <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                    <h3>BMW</h3>
+                    <p><b>The model of BMW autonomous cars: iNext.</b></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TECHNOLOGY Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="technology">
+            <h2 class="w3-wide">TECHNOLOGY</h2>
+            <p class="w3-opacity"><i>Technical features</i></p>
+            <p class="w3-justify">An autonomous car is a vehicle able to move on open road without human intervention.
+                It's a standard vehicle which is equipped with <b>digital sensors</b> (cameras, radar, sonar, lidars), which collect data and process it, thanks to specific software.<br/>
+                The software in question ant the data collect is being processed reconstruct the road situation in 3D by <b>recognizing shapes</b> (limits of roads, tracks, vehicles, signs, obstacles). Actions decided by software which is called <b>servocontrols</b> on the steering wheel, the accelerator, brakes…</p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <img src="img/functioning.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" width="600" height="auto" style="text-align=center"/>
+                    <p><i>Functioning of autonomous cars</i></p>
+                </div>
+            </div>
+            <p class="w3-justify">
+                5 levels established by the 
+                <a href="https://fr.wikipedia.org/wiki/National_Highway_Traffic_Safety_Administration">
+                    National Highway Traffic Safety Administration
+                </a>.
+            </p>
+            <h2 class="w3-wide level">LEVEL O</h2>
+            <p class="w3-justify">
+                <b>Not automatic</b>: The driver has total control of all the main functions of the vehicle (the motor, the accelerator, the steering wheel, the breaks).
+            </p>
+            <h2 class="w3-wide level">LEVEL 1</h2>
+            <p class="w3-justify">
+                <b>Automatic functions</b>: Certain functions of the vehicle can be automatic, but they can do no more than assist the driver who remains in control of the car.  For example, the anti-break system (ABS) or the electronic stability program (ESP) which acts automatically on the brakes to help the driver to keep control of the vehicle.                </p>
+            <h2 class="w3-wide level">LEVEL 2</h2>
+            <p class="w3-justify">
+                <b>Automation of combined functions</b>: The control of at least two main functions is combined with automation which replaces the driver in certain situations. The adaptive cruise control combined with the centring on the track puts the vehicle in this category, just like the park assist which allows the parking without the need of the driver to use the steering wheel or the pedals. 
+            </p>
+            <h2 class="w3-wide level">LEVEL 3</h2>
+            <p class="w3-justify">
+                <b>Limited driving autonomy</b>: The driver can give up complete control of the vehicle to the automatic system which will be given charge of critical security functions.  However the driving autonomy cannot take place in certain environmental conditions and in traffic (uniquely on the highway for example). It is necessary for the driver to be ready to retake control of the car at certain times (Especially when autonomous traffic conditions are no longer met: exit of the motorway, cork, etc.). The Google driverless car is currently at this automatic stage. 
+            </p>
+            <h2 class="w3-wide level">LEVEL 4</h2>
+            <p class="w3-justify">
+                <b>Complete driving autonomy</b>: The vehicle is designed to perform all critical safety functions on a complete journey. The driver provides a destination or navigation instructions but is not required to be ready to retake control of the vehicle. 
+            </p>
+
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <img src="img/autonomous-level.png" class="w3-round w3-margin-bottom" alt="Random Name" width="705" height="auto">
+                    <p><i>Classification of levels</i></p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Legislation section -->
+        <div class="w3-black" id="legislation">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">LEGISLATION</h2>
+                <p class="w3-opacity w3-center">
+                    <i>
+                        Legislation will be one of the main factors in the development of the autonomous car and there is considerable concern about the introduction of autonomous cars. Legislation is currently outdated by technology and important laws or decisions must properly define the car sector. In this section we will relay all the current events dealing with the regulations in force, and all developments in French, European and international legislation.
+                    </i>
+                </p>
+
+                <ul class="w3-ul w3-border w3-white w3-text-grey">
+                    <li class="w3-padding"><b>United States:</b> 
+                        <br/>Five states authorize and about 20 States allow autonomous cars to operate on their territory.
+                        <!-- List -->
+                        <ul>
+                            <li>Nevada since Juin 2011</li>
+                            <li>Florida since April 2012</li>
+                            <li>California since September 2012</li>
+                            <li>Michigan the end of 2013</li>
+                            <li>Washington district of Colombia since the start of 2013</li>
+                        </ul>
+                        A dozen US states (including New York, Hawaii, New York, Oklahoma, etc.) also plan to legalize these vehicles by 2015.</li>
+                    <li class="w3-padding"><b>Europe:</b> 
+                        <br/>In March 2016, the United Nations Economic Commission for Europe (UNECE) announced a revision of the Vienna Convention on the Traffic in Vienna. "Automated driving systems shall be permitted on roads, provided that they comply with United Nations vehicle regulations or that they can be controlled or deactivated by the driver"; However, fully autonomous driverless vehicles are still banned.</li>
+                    <li class="w3-padding"><b>France:</b>
+                        <br/>The National Assembly authorizes on 14 October 2014 the principle of road tests of "vehicle with total or partial giving over of control of driving", within the framework of the law on the energy transition for green growth.</li>
+                    <li class="w3-padding"><b>Germany:</b>
+                        <br/>In 2015, it announced the upcoming opening of highway test areas. The A9 connecting Munich to Berlin and the A84 connecting Stuttgart to the Swiss border should accommodate a portion allowing autonomous vehicles. The dates and budgets for this project have not yet been revealed.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Today Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="today">
+            <h2 class="w3-wide">TODAY</h2>
+            <h2 class="w3-wide level">Public transport</h2>
+            <p class="w3-justify">
+                <b>In a number of big towns, there has been put in place a series of of full-scale tests on public transport.</b>
+
+                The automobile technology is the same as the technology for the buses.<br/>
+                In Helsinki in Finland, the buses do not have a brake pedal nor a accelerator pedal nor a steering wheel, neither driver, only a person present ready to operate an emergency stop button.
+
+                The object is to reduce the number of vehicles to relieve congestion on the streets and is supported by the Sohjoa project which aims to limit congestion and greenhouse gases.
+
+            </p>
+            <h2 class="w3-wide level">Sojhoa project</h2>
+            <p class="w3-justify">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2FzAE9EPCq0" frameborder="0" allowfullscreen></iframe>
+            </p>
+            <p>
+                <i>These autonomous buses are always set up over short distances where there are a lot of places (campus, industrial zone, business district), with moderate speeds for security and legislation issues.</i>
+            </p>
+        </div>
+
+        <!-- Tesla section -->
+        <div class="w3-black" id="tesla">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">TESLA</h2>
+                <p class="w3-opacity w3-center">
+                    <i>
+                    </i>
+                </p>
+                <ul class="w3-ul w3-border w3-white w3-text-grey">
+                    <li class="w3-padding"><b>History</b> 
+                        <br/>Tesla is an American industry founded in 2003.It's specialized in manufacturing  luxury electric cars. Tesla is a pioneer in the conception and the development of electric car technologies.
+                    </li>
+                    <li class="w3-padding"><b>Presently</b> 
+                        <br/>Since 2016, Tesla has been building and selling cars which can be 100% autonomous thanks to its numerous integrated sensors. These cars are capable self-driving thanks to their sensors but software are not yet ready, so this function is not available.
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7zWORmaDQNs" frameborder="0" allowfullscreen></iframe>
+                    </li>
+                    <li class="w3-padding"><b>In the future</b>
+                        <br/>The software will be updated according to innovations and developments in self-driving software, for 2017-2018.<br/>
+                        Tesla wish cars 100% autonomous from his model “Tesla model 3” and the next cars (model Y).
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- The Future Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="future">
+            <h2 class="w3-wide">THE FUTURE</h2>
+            <p class="w3-opacity">
+                <i>The aim of the driverless car is to be able to drive in real life traffic and in nonspecific infrastructure. That is the typical application of mobile robotics. However, many technical and legal problems exist. It is necessary not to forget that an autonomous vehicle contains levels; therefore, an autonomous vehicle can be 100% autonomous but equally semi-autonomous with the automatic driving help systems, for example, the automatic parking assist.</i>
+            </p>
+            <h2 class="w3-wide level">Effects expected from the development</h2>
+            <p class="w3-justify">
+                According to the analysts, the autonomous car “Could upset the global automobile industry, through a radical change in the modes of consummation”.
+                Particularly with personal use, with the development of transport services, especially taxis. The automobile industry could pass from an industry of goods to an industry of services.
+            </p>
+            <h2 class="w3-wide level">Possible advantages and inconveniences</h2> 
+            <ul class="w3-ul w3-white w3-text-black">
+                <li class="w3-padding left">
+                    <b>It is necessary to know that 90% of accidents are because of human error.</b><br/><br/>
+                    With the generalisation of autonomous cars:
+                    <ul>
+                        <li>Reduction of accidents thanks to the better reaction time and equally with a greater reliability due to the computerized systems.</li>
+                        <li>Reduction of congestion, the consequence of this reduction is a better circulation and almost instantaneous homogenization of the traffic thanks to the communication systems between the vehicles.</li>
+                        <li>One can be alone in the car without having to drive, that means when we do not have a permit, and also when we are not in a state to drive due to tiredness, being drunk, sickness.</li>
+                        <li>One will assist in the increase of speed limits due to accident control.</li>
+                        <li>One of the great advantages, especially in the big towns, is to abandon the search of a parking place since the car can take care of it in our place, and it can even drop us at our doorstep.</li>
+                        <li>With the previous advantage, this means a decrease in the number of parking spaces because the car can drop the occupants and park by itself much further away.</li>
+                        <li>There will also be a decrease in the number of traffic delays.</li>
+                        <li>There will also be a bigger energy effiency, this would mean less pollution.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2 class="w3-wide level">Challenges</h2>
+            <ul class="w3-ul w3-white w3-text-black">
+                <li class="w3-padding left">
+                    <b>It is necessary to know that 90% of accidents are because of human error. </b><br/>
+                    <ul>
+                        <li>A question to pose in the case of an accident, what is the juristic responsibility of the ‘driver’? (Volvo announces its responsibility).</li>
+                        <li>The autonomous car can make some users reluctant, because to leave the control of their car with a machine is not insignificant.</li>
+                        <li>The question of hacking is also a big question.</li>
+                        <li>The cars cannot obey the signals and orders of policemen; thus, the challenge will be to have tools adapted to regulate the traffic or to stop the vehicle. </li>
+                        <li>One is in doubt. An autonomous vehicle will not be for free, the additional cost of the vehicle could be a hindrance.</li>
+                    </ul>
+            </ul>
+            <h2 class="w3-wide level">Prospects</h2>
+            <p class="w3-justify">
+                The general commercialisation of autonomous cars is expected for the end of the year 2020. A study of HIS Automotive reveals that the “sales of autonomous cars sales will take off in the early 2020s and then grow strongly by 2035"
+            </p>
+        </div>
+        
+        <!-- Contact section -->
+        <div class="w3-black" id="contact">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">Contact</h2>
+                <p class="w3-opacity w3-center">
+                    <i>Thanks to send comments below
+                    </i>
+                </p>
+                <ul class="w3-ul w3-border w3-white w3-text-grey">
+                    <li class="w3-padding"><b>Anthony AUPIAIS</b><br/>
+                        <a href="mailto:anthony.aupiais@etudiant.univ-rennes1.fr">anthony.aupiais@etudiant.univ-rennes1.fr</a> 
+                    </li>
+                    <li class="w3-padding"><b>Elhadj Mamadou DIALLO</b><br/> 
+                        <a href="mailto:elhadj-mamadou.diallo@etudiant.univ-rennes1.fr">elhadj-mamadou.diallo@etudiant.univ-rennes1.fr</a>
+                    </li>
+                    <li class="w3-padding"><b>Benjamin LE GALLO</b><br/>
+                        <a href="mailto:benjamin.legallo@etudiant.univ-rennes1.fr">benjamin.legallo@etudiant.univ-rennes1.fr</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+            <p class="w3-medium">Copyright © 2017 - Benjamin LE GALLO - Elhadj Mamadou DIALLO - Anthony AUPIAIS. All rights reserved.</p>
+        </footer>
+
+        <script>
+            // Automatic Slideshow - change image every 4 seconds
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 1
+                }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 4000);
+            }
+
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function myFunction() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            var modal = document.getElementById('ticketModal');
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+
+    </body>
+
+</html>
